@@ -1,0 +1,43 @@
+body {
+  overflow-y: hidden;
+}
+
+body main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#options > div {
+  border: 3px solid #000;
+  margin-right: 10px;
+  padding: 5px 1.5rem;
+  margin-bottom: 30px;
+}
+
+#options > div:hover {
+  color: #fff;
+  border: 3px solid #8c8282;
+  background-color: #d3c0c0;
+  -webkit-box-shadow: 2px 2px 2px #d8d2d2;
+          box-shadow: 2px 2px 2px #d8d2d2;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

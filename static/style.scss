@@ -1,0 +1,30 @@
+body {
+  overflow-y: hidden;
+
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#options {
+  display: flex;
+
+  & > div {
+    border: 3px solid #000;
+    margin-right: 10px;
+    padding: 5px 1.5rem;
+    margin-bottom: 30px;
+
+    &:hover {
+      color: #fff;
+      border: 3px solid rgb(140, 130, 130);
+      background-color: rgb(211, 192, 192);
+      box-shadow: 2px 2px 2px rgb(216, 210, 210);
+      cursor: pointer;
+    }
+  }
+}
